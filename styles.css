@@ -33,7 +33,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 280px;
+  min-height: 250px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -58,6 +58,7 @@ ol {
   display: flex;
   justify-content:left;
   list-style-type: none;
+  padding: 0px;
 }
 
 ol li {
