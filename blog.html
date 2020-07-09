@@ -20,9 +20,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Keith Chua's portfolio website">
+    <meta name="og:description" content="Keith Chua's portfolio website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Keith Chua - Resume</title>
+    <meta property="og:image" content="images/portfolio/crown.png"/>
+    <title>Keith Chua - Blog</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
     <link rel="stylesheet" href="styles.css" />
@@ -37,13 +38,13 @@
               <span class="mdl-layout__title">
                   <div class="portfolio-logo"></div>
               <span class="mdl-layout__title_cap">Hi! My name is Keith!</span>
-            </span>
+                          </span>
           </div>
           <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
               <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                   <a class="mdl-navigation__link" href="index.html">Portfolio</a>
-                  <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                  <a class="mdl-navigation__link is-active" href="resume.html">Resume</a>
+                  <a class="mdl-navigation__link is-active" href="blog.html">Blog</a>
+                  <a class="mdl-navigation__link" href="resume.html">Resume</a>
                   <a class="mdl-navigation__link" href="about.html">About</a>
                   <a class="mdl-navigation__link" href="contact.html">Contact</a>
               </nav>
@@ -52,15 +53,47 @@
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                 <a class="mdl-navigation__link" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="blog.html">Blog</a>
-                <a class="mdl-navigation__link is-active" href="resume.html">Resume</a>
+                <a class="mdl-navigation__link is-active" href="blog.html">Blog</a>
+                <a class="mdl-navigation__link" href="resume.html">Resume</a>
                 <a class="mdl-navigation__link" href="about.html">About</a>
                 <a class="mdl-navigation__link" href="contact.html">Contact</a>
             </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="mdl-grid portfolio-max-width">
-                <iframe src="https://drive.google.com/file/d/1CcrvDgraRqZWTyfadHEr8GI4Qt1nsDfH/preview" style="height:115vh;"></iframe>
+
+              <!-- Start of card -->
+              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                  <div class="mdl-card__media">
+                      <img class="article-image" src=" images/blog/IMG_2101.jpg" border="0" alt="">
+                  </div>
+                  <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">How I was hired as a Software Engineer in Silicon Valley amidst COVID-19</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                      Getting a job out of straight out of college is not easy, much less in an economic recession and COVID. Read about what I did to get hired!
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://medium.com/@keithczq/how-i-got-employed-at-a-bay-area-mnc-amidst-covid-19-aacd4b221a65" target="_blank">Read more</a>
+                  </div>
+              </div>
+              <!-- End of card -->
+
+              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                  <div class="mdl-card__media">
+                      <img class="article-image" src=" images/blog/kamran.jpg" border="0" alt="">
+                  </div>
+                  <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Why this serial entrepreneur believes every great founder should break their arm</h2>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                      An article I did as a community contribution to TechInAsia back in 2016 that went viral and became the featured story on the front page of the website for a week.
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://www.techinasia.com/talk/great-founder-break-arm" target="_blank">Read more</a>
+                  </div>
+              </div>
+
             </div>
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
